@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9.5"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "qmsolve>=2.0.0",
+    "spicy>=0.16.0",
+]
