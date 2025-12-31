@@ -1,15 +1,19 @@
-just for the info this repo should be named quantum harmonic oscillator, i do typo stuff if change the name i should change the main.typ too so anyway.
-the repo contains :
+Karena kamu menggunakan *tech stack* modern (Typst & uv), sebaiknya README-nya menonjolkan itu. Ini akan membuatmu terlihat lebih *expert*.
 
-├── 1.png #asset
-├── 2.png #asset
-├── 3.png #asset
-├── animation_properties
-│   ├── README.md
-│   ├── main.py #is main animation file
-│   ├── pyproject.toml
-│   └── uv.lock
-├── main.pdf 
-├── main.typ #is a code maker for main.pdf
-└── refs.bib 
+Berikut template yang bisa kamu pakai:
 
+```markdown
+# Quantum Harmonic Oscillator
+
+This project provides visualizations and documentation for the Quantum Harmonic Oscillator. It combines a paper written in **Typst** with animations generated using **Python**.
+
+## 📂 Repository Structure
+
+```text
+├── assets/                # Visual assets (1.png, etc.)
+├── animation_properties/  # Animation source code
+│   ├── main.py            # Main entry point
+│   └── uv.lock            # Dependencies managed by uv
+├── main.typ               # Typst source code for the paper
+├── main.pdf               # Compiled output PDF
+└── refs.bib               # Bibliography
