@@ -1,6 +1,3 @@
-Karena kamu menggunakan *tech stack* modern (Typst & uv), sebaiknya README-nya menonjolkan itu. Ini akan membuatmu terlihat lebih *expert*.
-
-Berikut template yang bisa kamu pakai:
 
 ```markdown
 # Quantum Harmonic Oscillator
